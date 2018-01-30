@@ -1,0 +1,40 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+Flask = "*"
+certifi = "==2017.11.5"
+pandas = "==0.21.0"
+matplotlib = "==2.1.0"
+scipy = "==1.0.0"
+numpy = "==1.13.3"
+Cython = "==0.27.3"
+pyOpenSSL = "==17.5.0"
+"backports.functools_lru_cache" = "==1.4"
+"ed25519ll" = "==0.6"
+protobuf = "==3.5.1"
+ipaddr = "==2.2.0"
+keyring = "==10.6.0"
+lxml = "==4.1.1"
+ndg-httpsclient = "==0.4.3"
+"pyasn1" = "==0.4.2"
+redis = "==2.10.6"
+pyserial = "==3.4"
+scikit-learn = "==0.19.1"
+usercustomize = "==1.0.0"
+wincertstore = "==0.2"
+pyxdg = "==0.25"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
